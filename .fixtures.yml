@@ -3,6 +3,8 @@ fixtures:
     "facts": "https://github.com/puppetlabs/puppetlabs-facts.git"
     "puppet_agent": "https://github.com/puppetlabs/puppetlabs-puppet_agent.git"
     "provision": "https://github.com/puppetlabs/provision.git"
+  forge_modules:
+    ruby_task_helper: 'puppetlabs/ruby_task_helper'
   symlinks:
     package: "#{source_dir}"
 

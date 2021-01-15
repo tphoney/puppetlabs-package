@@ -1,0 +1,9 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Show the supported modules that can be used on a system",
+  "parameters": {
+  },
+  "files": ["ruby_task_helper/files/task_helper.rb", "package/lib/task_helper.rb"],
+  "input_method": "stdin"
+}
