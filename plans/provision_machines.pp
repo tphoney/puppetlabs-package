@@ -13,7 +13,7 @@ plan package::provision_machines(
       'centos-7-x86_64'    => 1,
       'centos-6-x86_64'    => 1,
     }, inventory => './', vars => 'role: mysql')
-   
+
   run_task("provision::${provision_type}", 'localhost',
     action => 'provision', platform => {
       'centos-7-x86_64'    => 1,

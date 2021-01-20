@@ -16,7 +16,7 @@ end
 
 # DiscoverSupported task
 class DiscoverSupported < TaskHelper
-  def task(operation: 'create', **_kwargs)
+  def task(**_kwargs)
     modules_to_match = { puppetlabs_apache: [%r{^httpd$}], puppetlabs_mysql: [%r{mariadb-server}] }
 
     result = get_resource('package')
